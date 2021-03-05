@@ -22,7 +22,7 @@ user:
   pic: /assets/img/pago.png
   picAlt: "catbook"
   job: 항공 SI회사에서 근무하고 있는 6년차 직장인
-  aboutme: false # comment this out if you don't need the 'about' page.
+  #aboutme: false # comment this out if you don't need the 'about' page.
 
 exclude:
   - README.md

@@ -9,7 +9,7 @@ comments: true
 
 # 1. 마크다운에 관하여
 ## 1.1. 마크다운이란?
-**[Markdown]**(https://whatismarkdown.com/,"markdown link")은 텍스트 기반의 마크업언어로 특수문자와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다. 사실 GitHub의 저장소 내에 repository에 관한 정보를 기록하는 README.md를 작성하는 언어로 더욱 잘 알려져 있는 언어이다.
+[Markdown](https://whatismarkdown.com/,"markdown link")은 텍스트 기반의 마크업언어로 특수문자와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다. 사실 GitHub의 저장소 내에 repository에 관한 정보를 기록하는 README.md를 작성하는 언어로 더욱 잘 알려져 있는 언어이다.
 ## 1.2. 마크다운의 장단점
 ### 1.2.1. 장점
 1. 간결하다.

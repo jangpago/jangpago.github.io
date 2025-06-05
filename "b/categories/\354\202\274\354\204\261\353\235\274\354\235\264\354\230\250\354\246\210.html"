@@ -1,0 +1,6 @@
+---
+layout: page
+type: 삼성라이온즈
+---
+
+{% include archive.html %}

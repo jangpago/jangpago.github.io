@@ -21,7 +21,9 @@ user:
   name: 장파고
   pic: /assets/img/pago.png
   picAlt: "catbook"
-  job: 10년 간 모바일에 진심인 개발자, 요즘은 AI에 영혼 갈아넣는 중입니다.
+  job: |
+    10년 간 모바일에 진심인 개발자,
+    요즘은 AI에 영혼 갈아넣는 중입니다.
   #aboutme: false # comment this out if you don't need the 'about' page.
 
 exclude:

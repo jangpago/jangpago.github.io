@@ -67,3 +67,18 @@
         }, false);
     }, false);
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-uxz9Bcrwhs1Cdm42Hcps225y7sY9qsK0kGugHgd6Nq35p3xNmPR9U1FVLtZL1NVr7DiIP9N6agjAQ5uM6X7m3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({ once: true });
+    const progress = document.getElementById('scroll-progress');
+    const updateProgress = () => {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrolled = window.scrollY;
+      const width = docHeight ? (scrolled / docHeight) * 100 : 0;
+      progress.style.width = width + '%';
+    };
+    updateProgress();
+    document.addEventListener('scroll', updateProgress);
+  });
+</script>

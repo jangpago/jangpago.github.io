@@ -712,3 +712,14 @@ img {
         color: var(--footer_font_a);
     }
 }
+
+/* Scroll progress bar */
+#scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: var(--nav_font);
+    z-index: 2000;
+}

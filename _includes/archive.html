@@ -5,7 +5,7 @@
   <ul>
     {% for post in site.categories[page.type] %}
     {% if post.url %}
-    <li>
+    <li data-aos="fade-up">
         <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
           {{ post.date | date: "%b %-d, %Y" }}
         </time>
@@ -36,7 +36,7 @@
   {% endunless %}
 
   <ul>
-    <li>
+    <li data-aos="fade-up">
       <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
         {{ post.date | date: "%b %d" }}
       </time>
